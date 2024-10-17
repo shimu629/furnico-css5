@@ -1,0 +1,293 @@
+/*  *COMMON CSS STARTS HERE*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+.btn-primary{
+    background-color: #b88e2f;
+
+   
+font-weight: 600;
+font-size: 16px;
+line-height: 150%;
+color: #fff;
+padding: 12px 36px;
+display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul,li{
+    list-style: none;
+
+}
+body{
+    font-family: "Poppins" system-ui;
+}
+ 
+.img {
+    max-width: 100%;
+    display: block;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.container{
+    max-width: 1240px;
+    margin: auto;
+}
+/* *COMMON CSS ENDS HERE*/
+
+
+/* *NAVBAR STARTS HERE*/
+nav .row{
+    align-items: center;
+}
+nav .menu{
+    width: 45% ;
+}
+nav.quickmenu{
+    width:30% ;
+
+}
+nav .logo{
+    width: 25%;
+
+    
+    
+}
+nav .logo ul{
+    justify-content: center;
+}
+
+
+
+nav .menu ul{
+    justify-content: center;
+}
+
+nav .menu ul li a{
+
+    font-weight: 500;
+    font-size: 18px;
+    color: black;
+    padding: 38px 37.5px;
+    display: inline-block;
+}
+nav .quickmenu ul{
+    justify-content: end;
+    
+}
+nav .quickmenu ul li a{
+
+    font-size: 20px;
+    color: black;
+    padding: 36px 22.5px;
+    display: inline-block;
+}
+/* *NAVBAR ENDS HERE*/
+
+/* *BANNER STARTS HERE */
+
+#banner{
+    background-image: url(../images/bg.jpg);
+    max-width: 1440px;
+    height: 716px;
+    background-position: center;
+    background-size: cover;
+    padding-top:157px ;
+}
+.bannerCnt{
+    width: 600px;
+    background-color: #FFF3E3;
+    padding: 62px 43px 37px;
+    margin-left: auto;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.bannerCnt h4{
+  
+font-weight: 600;
+font-size: 16px;
+letter-spacing: 0.19em;
+color: #333;
+}
+.bannerCnt h2{
+    
+font-weight: 700;
+font-size: 52px;
+line-height: 125%;
+color:#b88e2f;
+margin: 4px 0 17px;
+}
+.bannerCnt p{
+    
+font-weight: 500;
+font-size: 18px;
+line-height: 133%;
+color: #333;
+margin-bottom: 46px;
+}
+.bannerCnt a{
+    padding: 25px 72px;
+    text-transform: uppercase;
+}
+/* *BANNER ENDS HERE */
+
+
+/* CATERGORY STARTS HERE  */
+
+#category{
+    margin: 52px 56px;
+    text-align: center;
+}
+
+#category .heading h2{
+font-weight: 700;
+font-size: 32px;
+color: #333;
+}
+
+#category .heading p{
+   
+font-weight: 400;
+font-size: 20px;
+text-align: center;
+color: #666;
+}
+
+
+
+
+.categoryCard{
+   width: 33.33%;
+ margin-top: 62px;
+    
+ font-weight: 600;
+ font-size: 24px;
+ text-align: center;
+ color: #333;   
+}
+
+/* CATERGORY ENDS HERE  */
+
+
+
+/* *PRODUCT STARTS HERE */
+
+#products .heading h2{
+
+    
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
+    text-align: center;
+    color: #3a3a3a;
+    margin-bottom: 10px;
+
+}
+#products{
+     margin-bottom: 69px;
+
+     
+}
+.productCard{
+
+
+    width: calc( 25% - 32px );
+    
+    margin: 0 16px;
+   
+}
+.productCard .productImage{
+    position: relative;
+}
+
+.productCard .productImage .discount{
+
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    background-color:#e97171 ;
+    color: white;
+    text-align: center;
+    line-height: 48px;
+    border-radius: 50% ;.
+    font-weight: 500;
+    top: 24px;
+    right: 24px;
+
+}
+
+.productCard .productImage .discount2{
+
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    background-color: #2ec1ac ;
+    color: white;
+    text-align: center;
+    line-height: 48px;
+    border-radius: 50% ;.
+    font-weight: 500;
+    top: 24px;
+    right: 24px;
+
+}
+
+
+.productCard .productCnt{
+
+    border: 1px solid #000;
+
+    padding: 16px 20px 30px;
+    background-color: #F4F5F7 ;
+}
+
+.productCard .productCnt h3{
+
+   
+font-weight: 600;
+font-size: 24px;
+line-height: 120%;
+color: #3a3a3a;
+}
+
+.productCard .productCnt p{   
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+color: #898989;
+margin: 8px 0;   
+}
+
+.productCard .productCnt h4{
+
+    
+font-weight: 600;
+font-size: 20px;
+line-height: 150%;
+color: #3a3a3a;
+}
+
+.productCard .productCnt h4 span{
+   
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+text-decoration: line-through;
+color: #b0b0b0;
+}
+
+
+
+
+/* *PRODUCT ENDS HERE */
